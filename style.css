@@ -1,0 +1,114 @@
+body{
+  color: #A6D1E6;
+  background-color: #2C3333;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+.top-container {
+  background-color: #81CACF;
+  position: relative;
+  padding-top: 100px;/*to get a gap of 100 px*/
+}
+.middle-container{
+  margin:100px;
+}
+.bottom-container{
+  background-color: #94B49F;
+  color: #EAE3D2;
+  padding: 16px 0 16px;
+
+}
+h1{
+  font-size: 562.5%;/*16 px is 100% so 19 px is 562.5% or u can aslo em 1em=16px so 5.625 em =90 px */
+  line-height: normal;
+  margin: 50 auto 0 auto px;/*this is done so that there is less gsap btw h1 and h2 and its centered*/
+  font-family: 'Sacramento', cursive;
+  color: #1F4690;
+
+}
+h2{
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: 'Merriweather', serif;
+  color: #1F4690;
+  padding: 10px;
+}
+h3{
+  font-family: 'Merriweather', serif;
+  color: #E8AA42;
+
+}
+hr{
+  border: dotted 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+  color:#F5E8C7;
+}
+a{
+font-family: 'Montserrat', sans-serif;
+margin: 10px 20px;
+text-decoration: none;
+}
+a:hover{
+  color:#C1EFFF;
+}
+
+.pro{
+  text-decoration: underline;
+}
+
+.bottom-cloud{
+  position: absolute;/*this is done to bring the cloud to the left */
+  left:50px;
+}
+.top-cloud{
+  position: absolute;
+  right: 60px;
+  top:30px;/*to bring the cloud to top right*/
+}
+.profilepic{
+  height: 300px;
+}
+.codeimage{
+  height: 80px;
+  /*  float: left;||This property makes ur text float around your image
+    margin-right: 30px; */
+}
+.listofskill{
+  text-align: left;
+}
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;/*makes ur text more readable*/
+}
+
+}
+.hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5%;
+    width:10%
+}
+.contact-message{
+  widht: 40%;
+  margin: 40px;
+}
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #1F4690;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #38caeb;
+  text-decoration: none;
+}
